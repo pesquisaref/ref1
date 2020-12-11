@@ -21,8 +21,8 @@ Coordenador: Prof. Lucio Agostinho Rocha - Universidade Tecnológica Federal do 
 5. Executar a sequencia de comandos:
 
 ```
-python gather_examples.py --input videos/real.mov --output dataset/real --detector face_detector --skip 1
-python gather_examples.py --input videos/fake.mp4 --output dataset/fake --detector face_detector --skip 4
-python train.py --dataset dataset --model liveness.model --le le.pickle
-python liveness_demo.py --model liveness.model --le le.pickle --detector face_detector
+# python gather_examples.py --input videos/real.mov --output dataset/real --detector face_detector --skip 1
+# python gather_examples.py --input videos/fake.mp4 --output dataset/fake --detector face_detector --skip 4
+# python train.py --dataset dataset --model liveness.model --le le.pickle
+# python liveness_demo.py --model liveness.model --le le.pickle --detector face_detector
 ```

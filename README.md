@@ -18,7 +18,7 @@ Coordenador: Prof. Lucio Agostinho Rocha - Universidade Tecnológica Federal do 
 
 4. Gerar um pequeno vídeo '/videos/fake.mp4' com a imagem inválida.
 
-5. Executar a sequencia de comandos:
+5. Executar a sequência de comandos:
 
 ```
 # python gather_examples.py --input videos/real.mov --output dataset/real --detector face_detector --skip 1
